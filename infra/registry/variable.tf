@@ -11,12 +11,12 @@ variable "compartment_id" {
 variable "oci_artifacts_container_repository_display_name" {
   description = "Display name for the Oracle Cloud Infrastructure (OCI) Artifacts Container Repository."
   type        = string
-  default     = "sprinbootappping"
+  default     = "springboot-ping-service"
 }
 variable "oci_artifacts_container_repository_display_name_two" {
   description = "Display name for the Oracle Cloud Infrastructure (OCI) Artifacts Container Repository."
   type        = string
-  default     = "springbootappstatus"
+  default     = "springboot-status-service"
 }
 
 variable "oci_artifacts_container_repository_is_public" {

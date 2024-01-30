@@ -1,6 +1,4 @@
-provider "oci" {
-  config_file_profile = "DEFAULT"
-}
+
 
 data "oci_identity_availability_domains" "ads" {
   compartment_id = var.compartment_id

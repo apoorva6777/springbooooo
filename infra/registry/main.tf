@@ -1,6 +1,4 @@
-provider "oci" {
-  config_file_profile = "DEFAULT"
-}
+
 
 resource "oci_artifacts_container_repository" "test_container_repository" {
   compartment_id = var.compartment_id
